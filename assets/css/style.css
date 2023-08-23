@@ -1,0 +1,52 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(238, 236, 236);
+  margin: auto;
+}
+
+.header {
+  height:5em;
+  padding: 3em;
+  font-size: 1.5em;
+  background-image: url(/assets/img/fondo.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.header h1 {
+  margin: auto;
+  font-weight: 400;
+  color: rgb(223, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header p {
+  text-align: left;
+  color: rgba(245, 1, 1, 0.998);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.products {
+  width: 70%;
+  margin: auto;
+}
+
+.products td {
+  width: 20%;
+  padding: auto;
+}
+
+.products img {
+  width: 60%;
+  border: groove;
+}
+
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(219, 52, 19);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
